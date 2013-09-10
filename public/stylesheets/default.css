@@ -7,179 +7,146 @@ padding: 0px 0px;
 }
 
 body header, body footer {
-
-
+	position: fixed;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding 10px 10px;
 
 }
 
 
 body header {
-
-
-
-
+	padding: 0px 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 100px;
 }
 
-
-
 body header h1 {
-
-
-
-
+	padding: 5px;
+	padding-left: 90px;
+	height: 0px;
+	left: 50px;
 }
 
 
 body header h1::first-letter {
-
-
-
-
-
+	font-size: 3.5em;
+	font-family: Arial;
+	padding-right: 0px;
+	float: left;
 }
 
-
-body headr h2 {
-
-
-
-
-
-
-
-
+body header h2 {
+	font-family: cursive;
+	font-size: 1em;
+	position: relative;
+	font-weight: normal;
+	top: 50px;
+	left: 0px;
+	padding-left: 50px;
 }
 
 
 body header h2 {
-
-
-
-
-
-
+	text-align:center;
 
 }
 
 
 body footer {
-
-
-
-
-
+	background-color: #000000;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	color: #FFFFFF;
 }
-
-
-
-
 
 h1 {
-
-
-
-
+	font-size: 2.0em;
 }
-
-
-
 
 h2 {
-
-
-
-
-
-
+	font-size: 1.5em;
 }
-
-
 
 body header input {
-
-
-
-
-
-
-
-
-
+	position: fixed;
+	right: 30px;
+	top: 10px;
+	padding: 0px 15px;
+	border-radius: 15px;
+	width: 150px;
 }
-
-
-
-
-div box {
-
-
-
-
-
-
-
-}
-
-
-
-
 
 div h1 {
-
-
-
-
+	color: #00FFFB;
 
 }
-
-
 
 #textcenter {
-
-
-
-
+	position: fixed;
+	width: 100%;
+	top: 100px;
+	text-align: center;
+	background-color: #000000;
+	color: #FFB3D1;
 }
-
-
-
 
 #textcenter > p {
-
-
-
-
-
-
-
-
-
+	text-align: center;
+	margin-bottom: 10px;
+	color: #FFB3D1;
+	background-color: #858585;
+	border-radius: 10px;
+	font-size: 1.1em;
+	padding: 10px;
 }
 
+#content-area {
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 2px;
+	background-color: #444444;
+	color: #111111;
+}
 
+#content-area pics{
+	text-align: center;
+}
+
+#content-area vids{
+	text-align: center;
+}
 
 #content-area > p {
-
-
-
-
-
-
-
-
-
+	text-align:center;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+	background-color: #333333;
+	border-radius: 10px;
+	font-size: 1.1em;
+	padding: 10px;
+	height: 100%;
 }
 
-
-#textcenter > p {
-
-
-
-
-
-
-
-
-
-
+#titles {
+	text-align: center;
+	padding: 200px 20px;
+	background-color: #FFFFFF;
+	color: #000000;
 }
+
+#titles> p {
+	margin-bottom: 30px;
+	color: #0D00FF;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	font-size: 1.1em;
+	padding: 10px;
+}
+
