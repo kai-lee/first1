@@ -104,23 +104,21 @@ div h1 {
 	background-color: #858585;
 	border-radius: 10px;
 	font-size: 1.1em;
-	padding: 10px;
+	padding: 5px;
 }
 
 #content-area {
 	text-align: center;
-	padding-top: 200px;
+	padding-top: 40px;
 	padding-bottom: 2px;
 	background-color: #444444;
 	color: #111111;
 }
 
-#content-area pics{
+#content-area media{
 	text-align: center;
-}
-
-#content-area vids{
-	text-align: center;
+	height: 25%;
+	width: 25%;
 }
 
 #content-area > p {
