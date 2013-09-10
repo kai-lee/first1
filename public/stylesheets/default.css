@@ -1,0 +1,185 @@
+/* Header Styles */
+
+body {
+background-color: #000000;
+color: #FFFFFF;
+padding: 0px 0px;
+}
+
+body header, body footer {
+
+
+
+}
+
+
+body header {
+
+
+
+
+}
+
+
+
+body header h1 {
+
+
+
+
+}
+
+
+body header h1::first-letter {
+
+
+
+
+
+}
+
+
+body headr h2 {
+
+
+
+
+
+
+
+
+}
+
+
+body header h2 {
+
+
+
+
+
+
+
+}
+
+
+body footer {
+
+
+
+
+
+}
+
+
+
+
+
+h1 {
+
+
+
+
+}
+
+
+
+
+h2 {
+
+
+
+
+
+
+}
+
+
+
+body header input {
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+div box {
+
+
+
+
+
+
+
+}
+
+
+
+
+
+div h1 {
+
+
+
+
+
+}
+
+
+
+#textcenter {
+
+
+
+
+}
+
+
+
+
+#textcenter > p {
+
+
+
+
+
+
+
+
+
+}
+
+
+
+#content-area > p {
+
+
+
+
+
+
+
+
+
+}
+
+
+#textcenter > p {
+
+
+
+
+
+
+
+
+
+
+}
