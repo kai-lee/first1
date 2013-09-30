@@ -1,0 +1,40 @@
+<html>
+<head>
+<link rel="icon" type="image/png" href="2.ico">
+<title>Pokemon X&Y</title>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+</head>
+
+<body> 
+<header>
+<hgroup>
+<h1 id ="Top"><a href="index.html"><img src="1.jpg" height="48" width="48" alt="Pokeball"></a>Welcome to the Site</h1>
+
+<h2>Pokemon X&Y Launch October 12th 2013</h2>
+
+
+<h3>
+<form action="index.html" method="get">
+<input type="search" placeholder="Search this page">
+</form>
+</h3>
+</header>
+<div id="textcenter">
+<p> This is an assignment for Tyson Henry's CINS 465 Class</p>
+<div id="content-area">
+<p>This page topic was randomly chosen because I am rather indecisive</p>
+<p>Pokemon X&Y bundles will not be as unique as their Japanese counterparts</p>
+<p> Update: Configuring CSS</p>
+</div>
+
+<footer id="footer">
+	&copy; Copyright? No, Open source for reference
+</footer>
+
+</body>
+
+
+</html>

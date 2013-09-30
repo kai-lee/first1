@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+value=ARGV[0]
+def test(value)
+star="**************************************************"
+x= `grep -liry --include *.rb --include *.erb --include *.js --include *.css --include *.html --include *.yml --include *.txt "#{value}"`
+y= `grep -hirny --include *.rb --include *.erb --include *.js --include *.css --include *.html --include *.yml --include *.txt "#{value}"`
+puts "Files with names that matches <" + "#{value}" + "=>" + "\n" + star + "\n" + "  " + x	
+puts "Files with content that matchs <" + "#{value}" + "=>" + "\n" + star + "\n" + "  " + y
+end
+
+test(value)
+
