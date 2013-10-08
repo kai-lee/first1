@@ -1,0 +1,35 @@
+<h1>Listing add_books</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Email</th>
+      <th>Zipcode</th>
+      <th>Fav color</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @add_books.each do |add_book| %>
+      <tr>
+        <td><%= add_book.first_name %></td>
+        <td><%= add_book.last_name %></td>
+        <td><%= add_book.email %></td>
+        <td><%= add_book.zipcode %></td>
+        <td><%= add_book.fav_color %></td>
+        <td><%= link_to 'Show', add_book %></td>
+        <td><%= link_to 'Edit', edit_add_book_path(add_book) %></td>
+        <td><%= link_to 'Destroy', add_book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Add book', new_add_book_path %>

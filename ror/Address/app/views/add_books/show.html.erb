@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @add_book.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @add_book.last_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @add_book.email %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @add_book.zipcode %>
+</p>
+
+<p>
+  <strong>Fav color:</strong>
+  <%= @add_book.fav_color %>
+</p>
+
+<%= link_to 'Edit', edit_add_book_path(@add_book) %> |
+<%= link_to 'Back', add_books_path %>
