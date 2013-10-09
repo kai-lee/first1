@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(version: 20131008084324) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
-    t.integer  "zipcode"
-    t.text     "fav_color"
+    t.string   "zipcode"
+    t.string   "fav_color"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

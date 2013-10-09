@@ -1,29 +1,24 @@
+<body>
+<h1> Viewing User </h1>
+
 <p id="notice"><%= notice %></p>
+<p1>
+<center>
+ <strong>First name:</strong> <%= @abook.first_name.titleize %> <br>
+  <strong>Last name:</strong> <%= @abook.last_name.titleize %> <br>
+  <strong>Email:</strong> <%= @abook.email.titleize %> <br>
+  <strong>Zip code:</strong> <%= @abook.zipcode %> <br>
+  <strong>Favorite color:</strong> <%= @abook.fav_color.titleize %>
+</center>
+<br>
+</p1>
 
-<p>
-  <strong>First name:</strong>
-  <%= @abook.first_name %>
-</p>
-
-<p>
-  <strong>Last name:</strong>
-  <%= @abook.last_name %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @abook.email %>
-</p>
-
-<p>
-  <strong>Zipcode:</strong>
-  <%= @abook.zipcode %>
-</p>
-
-<p>
-  <strong>Fav color:</strong>
-  <%= @abook.fav_color %>
-</p>
-
-<%= link_to 'Edit', edit_abook_path(@abook) %> |
-<%= link_to 'Back', abooks_path %>
+<table>
+<tbody>
+<tr>
+<td><%= link_to 'Show', @abook %></td>
+<td><%= link_to 'Back', abooks_path %></td>
+</tr>
+</tbody>
+</table>
+</body>

@@ -4,8 +4,8 @@ class CreateAbooks < ActiveRecord::Migration
       t.string :first_name
       t.string :last_name
       t.string :email
-      t.integer :zipcode
-      t.text :fav_color
+      t.string :zipcode
+      t.string :fav_color
 
       t.timestamps
     end
