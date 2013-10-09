@@ -18,10 +18,10 @@ validates_uniqueness_of :email, :message => ": Email already in use"
 
 #zip code validation
 validates_presence_of :zipcode
-validates_format_of :zipcode. :with => /\A\d\{5}\z/
+validates_format_of :zipcode, :with => /\A[0-9]{5}\z/
 
 #Favorite color validation
-#validates_presence_of :fav_color
+validates_presence_of :fav_color
 
 
 end
