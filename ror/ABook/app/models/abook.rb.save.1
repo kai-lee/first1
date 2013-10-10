@@ -1,5 +1,6 @@
 class Abook < ActiveRecord::Base
 
+require 'color_valid'
 require 'zip_valid'
 
 #first name validation
@@ -24,10 +25,15 @@ validates_format_of :zipcode, :with => /\A[0-9]{5}\z/
 #Favorite color validation
 validates_presence_of :fav_color
 
-validate :check_zip
-def check_zip
-	if !(ValidZip.is_legal(self.zipcode))
-		errors.add :zipcode, "is not a valid zipcode"
+
+
+
+#def check does not work for colors
+	def check_zip
+		if !(valid_zip.is_legal(self.zipcode))
+			errors.add :zipcode, "is not a valid zipcode"
+		end	
 	end
-end
+
+
 end
